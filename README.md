@@ -4,7 +4,7 @@
 
 ## 目录
 
-- [Nature]: Multi-omics profiling of mouse gastrulation at single-cell resolution
+- [Nature]: [Multi-omics profiling of mouse gastrulation at single-cell resolution](https://starlitnightly.github.io/paper_reproducing/GASTRULATION/)
 
 ## License
 
