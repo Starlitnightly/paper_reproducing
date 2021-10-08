@@ -6,4 +6,5 @@
     * [1-1. 环境配置](GASTRULATION/gastrulation_1.md)
     * [1-2. MOFA模型-Figure3b](GASTRULATION/gastrulation_2.md)
     * [1-3. 下游分析-Figure3b](GASTRULATION/gastrulation_3.md)
+    * [1-4. 增强子分析-Figure3c](GASTRULATION/gastrulation_4.md)
 
