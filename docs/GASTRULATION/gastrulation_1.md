@@ -74,6 +74,7 @@ sudo apt-get update
 理论上，（5）的命令你输入了之后可能会报错，报错之后我们输入下面这行代码就好了
 
 ```
+apt install ca-certificates
 curl -sL "http://keyserver.ubuntu.com/pks/lookup?search=0x51716619E084DAB9&op=get" | sudo apt-key add
 #上面这行代码输入完后，再输入一次下面这个
 sudo apt-get update
@@ -252,7 +253,7 @@ sudo apt-get install r-base
 由于这个包需要一定的lib依赖，所以我们简单配置一下
 
 ```
-sudo apt-get install libzmq3-dev libssl-dev
+sudo apt-get install libzmq3-dev libssl-dev  libcurl4-openssl-dev libxml2-dev
 #安装完后进入R环境
 sudo R
 ```
@@ -266,7 +267,7 @@ Sys.setenv(R_INSTALL_STAGED = FALSE)
 就可以避免一些bug，重命名bug
 
 ```
-install.packages(c('repr', 'IRdisplay', 'evaluate', 'crayon', 'pbdZMQ', 'devtools', 'uuid', 'digest'))
+install.packages(c('repr', 'IRdisplay', 'evaluate', 'crayon', 'pbdZMQ', 'devtools', 'uuid', 'digest', 'psych'))
 ```
 
 等上述的包安装完之后，输入

@@ -1,0 +1,913 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>1-4. 增强子分析-Figure3c · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="gastrulation_3.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Bioinformatics_reproducing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    目录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    论文1: 单细胞分辨率下小鼠原肠胚形成的多组学分析
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="gastrulation_1.html">
+            
+                <a href="gastrulation_1.html">
+            
+                    
+                    1-1. 环境配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="gastrulation_2.html">
+            
+                <a href="gastrulation_2.html">
+            
+                    
+                    1-2. MOFA模型-Figure3b
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="gastrulation_3.html">
+            
+                <a href="gastrulation_3.html">
+            
+                    
+                    1-3. 下游分析-Figure3b
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.4" data-path="gastrulation_4.html">
+            
+                <a href="gastrulation_4.html">
+            
+                    
+                    1-4. 增强子分析-Figure3c
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >1-4. 增强子分析-Figure3c</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="nature&#x590D;&#x73B0;&#xFF1A;&#x589E;&#x5F3A;&#x5B50;&#x5206;&#x6790;-figure3c">Nature&#x590D;&#x73B0;&#xFF1A;&#x589E;&#x5F3A;&#x5B50;&#x5206;&#x6790;-Figure3c</h1>
+<p>&#x524D;&#x9762;&#x7684;&#x6559;&#x7A0B;&#x4E3B;&#x8981;&#x662F;&#x5355;&#x7EC6;&#x80DE;&#x5206;&#x6790;&#xFF0C;&#x5728;&#x672C;&#x5C0F;&#x8282;&#x4E2D;&#xFF0C;&#x6211;&#x4EEC;&#x5C06;&#x590D;&#x73B0;&#x4F5C;&#x8005;&#x7684;Figure3c&#xFF0C;&#x589E;&#x5F3A;&#x5B50;&#x90E8;&#x5206;&#xFF0C;&#x589E;&#x5F3A;&#x5B50;&#x662F;DNA&#x4E0A;&#x4E00;&#x5C0F;&#x6BB5;&#x53EF;&#x4E0E;&#x86CB;&#x767D;&#x8D28;&#x7ED3;&#x5408;&#x7684;&#x533A;&#x57DF;&#xFF0C;&#x4E0E;&#x86CB;&#x767D;&#x8D28;&#x7ED3;&#x5408;&#x4E4B;&#x540E;&#xFF0C;&#x57FA;&#x56E0;&#x7684;&#x8F6C;&#x5F55;&#x4F5C;&#x7528;&#x5C06;&#x4F1A;&#x52A0;&#x5F3A;&#x3002;&#x589E;&#x5F3A;&#x5B50;&#x53EF;&#x80FD;&#x4F4D;&#x4E8E;&#x57FA;&#x56E0;&#x4E0A;&#x6E38;&#xFF0C;&#x4E5F;&#x53EF;&#x80FD;&#x4F4D;&#x4E8E;&#x4E0B;&#x6E38;&#x3002;&#x4F5C;&#x8005;&#x7684;&#x76EE;&#x7684;&#x662F;&#x770B;&#x4E0D;&#x540C;&#x7684;&#x80DA;&#x80CE;&#x7EC6;&#x80DE;&#x4E2D;&#xFF0C;&#x4ED6;&#x4EEC;&#x589E;&#x5F3A;&#x5B50;&#x7684;&#x53D8;&#x5316;&#x662F;&#x600E;&#x6837;&#x7684;&#x3002;</p>
+<h2 id="1&#x3001;&#x6570;&#x636E;&#x9884;&#x5904;&#x7406;">1&#x3001;&#x6570;&#x636E;&#x9884;&#x5904;&#x7406;</h2>
+<h3 id="11-&#x52A0;&#x8F7D;&#x4F9D;&#x8D56;">1.1 &#x52A0;&#x8F7D;&#x4F9D;&#x8D56;</h3>
+<pre><code class="lang-R"><span class="hljs-keyword">library</span>(data.table)
+<span class="hljs-keyword">library</span>(purrr)
+<span class="hljs-keyword">library</span>(ggplot2)
+</code></pre>
+<h3 id="12-&#x8DEF;&#x5F84;&#x8BBE;&#x7F6E;">1.2 &#x8DEF;&#x5F84;&#x8BBE;&#x7F6E;</h3>
+<pre><code class="lang-R">io &lt;- list()
+io$basedir &lt;- <span class="hljs-string">&quot;/mnt/g/&#x5171;&#x4EAB;&#x4E91;&#x7AEF;&#x786C;&#x76D8;/794/scnmt_data&quot;</span>
+
+
+<span class="hljs-comment"># Sample metadata</span>
+io$sample.metadata &lt;- paste0(io$basedir,<span class="hljs-string">&quot;/sample_metadata.txt&quot;</span>)
+
+<span class="hljs-comment"># Genomic contects</span>
+io$annos_dir &lt;- paste0(io$basedir,<span class="hljs-string">&quot;/features/genomic_contexts&quot;</span>)
+
+<span class="hljs-comment"># DNA methylation and chromatin accessibility data</span>
+io$met.dir &lt;- paste0(io$basedir,<span class="hljs-string">&quot;/met/cpg_level&quot;</span>)
+io$acc.dir &lt;- paste0(io$basedir,<span class="hljs-string">&quot;/acc/gpc_level&quot;</span>)
+
+<span class="hljs-comment"># Folders with the global statistics per cell</span>
+io$met.stats &lt;- paste0(io$basedir,<span class="hljs-string">&quot;/met/results/stats/sample_stats.txt&quot;</span>)
+io$acc.stats &lt;- paste0(io$basedir,<span class="hljs-string">&quot;/acc/results/stats/sample_stats.txt&quot;</span>)
+
+<span class="hljs-comment"># Folders with the differential analysis results</span>
+io$diff.met &lt;- paste0(io$basedir,<span class="hljs-string">&quot;/met/results/differential&quot;</span>)
+io$diff.acc &lt;- paste0(io$basedir,<span class="hljs-string">&quot;/acc/results/differential&quot;</span>)
+
+<span class="hljs-comment"># Output directory</span>
+io$pdfdir &lt;- paste0(io$basedir,<span class="hljs-string">&quot;/metacc/pseudobulked_profiles/lineage_enhancers&quot;</span>)
+</code></pre>
+<h3 id="13-&#x64CD;&#x4F5C;&#x8BBE;&#x7F6E;">1.3 &#x64CD;&#x4F5C;&#x8BBE;&#x7F6E;</h3>
+<pre><code class="lang-R">opts &lt;- list()
+
+<span class="hljs-comment"># Define which stage and lineages to look at </span>
+opts$stage_lineage &lt;- c(
+  <span class="hljs-string">&quot;E4.5_Epiblast&quot;</span>,
+  <span class="hljs-string">&quot;E5.5_Epiblast&quot;</span>,
+  <span class="hljs-string">&quot;E6.5_Epiblast&quot;</span>,
+  <span class="hljs-string">&quot;E6.5_Primitive_Streak&quot;</span>,
+  <span class="hljs-string">&quot;E7.5_Ectoderm&quot;</span>,
+  <span class="hljs-string">&quot;E7.5_Mesoderm&quot;</span>,
+  <span class="hljs-string">&quot;E7.5_Endoderm&quot;</span>
+
+)
+
+<span class="hljs-comment"># Define genomic contexts</span>
+opts$annos &lt;- c(
+  <span class="hljs-string">&quot;H3K27ac_distal_E7.5_Mes_intersect12&quot;</span>=<span class="hljs-string">&quot;Mesoderm enhancers&quot;</span>,
+  <span class="hljs-string">&quot;H3K27ac_distal_E7.5_End_intersect12&quot;</span>=<span class="hljs-string">&quot;Endoderm enhancers&quot;</span>,
+  <span class="hljs-string">&quot;H3K27ac_distal_E7.5_Ect_intersect12&quot;</span>=<span class="hljs-string">&quot;Ectoderm enhancers&quot;</span>
+)
+
+<span class="hljs-comment"># Define window positions and characteristics</span>
+opts$positions &lt;- c(
+  <span class="hljs-string">&quot;H3K27ac_distal_E7.5_Mes_intersect12&quot;</span>=<span class="hljs-string">&quot;center&quot;</span>,
+  <span class="hljs-string">&quot;H3K27ac_distal_E7.5_End_intersect12&quot;</span>=<span class="hljs-string">&quot;center&quot;</span>,
+  <span class="hljs-string">&quot;H3K27ac_distal_E7.5_Ect_intersect12&quot;</span>=<span class="hljs-string">&quot;center&quot;</span>
+)
+opts$window_size &lt;- <span class="hljs-number">2000</span>
+opts$met.tile &lt;- <span class="hljs-number">200</span>
+opts$acc.tile &lt;- <span class="hljs-number">150</span>
+
+<span class="hljs-comment"># Thresholds in the differential analysis to subset lineage-defining enhancers</span>
+opts$diff.type &lt;- <span class="hljs-number">2</span>
+opts$min.fdr &lt;- <span class="hljs-number">0.10</span>
+opts$min.met.diff &lt;- <span class="hljs-number">5</span>
+opts$min.acc.diff &lt;- <span class="hljs-number">5</span>
+
+<span class="hljs-comment"># Define which cells to use</span>
+tmp &lt;- fread(io$sample.metadata) %&gt;% 
+  .[,stage_lineage:=paste(stage,lineage10x_2,sep=<span class="hljs-string">&quot;_&quot;</span>)] %&gt;% 
+  .[stage_lineage%<span class="hljs-keyword">in</span>%opts$stage_lineage] 
+opts$met.cells &lt;- tmp %&gt;% .[pass_metQC==<span class="hljs-literal">T</span>,id_met]
+opts$acc.cells &lt;- tmp %&gt;% .[pass_accQC==<span class="hljs-literal">T</span>,id_acc]
+
+rm(tmp)
+</code></pre>
+<p>&#x6211;&#x4EEC;&#x8FD8;&#x9700;&#x8981;&#x914D;&#x7F6E;&#x4E00;&#x4E9B;RNA&#x7684;&#x8BBE;&#x7F6E;</p>
+<pre><code class="lang-R"><span class="hljs-comment"># Define genomic contexts for methylation</span>
+opts$met.annos &lt;- c(
+  <span class="hljs-comment"># &quot;genebody&quot;=&quot;Gene body&quot;,</span>
+  <span class="hljs-string">&quot;prom_2000_2000&quot;</span>=<span class="hljs-string">&quot;Promoters&quot;</span>,
+  <span class="hljs-comment"># &quot;prom_2000_2000_cgi&quot;=&quot;CGI promoters&quot;,</span>
+  <span class="hljs-comment"># &quot;prom_2000_2000_noncgi&quot;=&quot;non-CGI promoters&quot;,</span>
+  <span class="hljs-string">&quot;H3K27ac_distal_E7.5_Mes_intersect12&quot;</span>=<span class="hljs-string">&quot;Mesoderm enhancers&quot;</span>,
+  <span class="hljs-string">&quot;H3K27ac_distal_E7.5_End_intersect12&quot;</span>=<span class="hljs-string">&quot;Endoderm enhancers&quot;</span>,
+  <span class="hljs-string">&quot;H3K27ac_distal_E7.5_Ect_intersect12&quot;</span>=<span class="hljs-string">&quot;Ectoderm enhancers&quot;</span>
+  <span class="hljs-comment"># &quot;H3K4me3_E7.5_Mes&quot;=&quot;Mes- H3K4me3&quot;,</span>
+  <span class="hljs-comment"># &quot;H3K4me3_E7.5_End&quot;=&quot;End- H3K4me3&quot;,</span>
+  <span class="hljs-comment"># &quot;H3K4me3_E7.5_Ect&quot;=&quot;Ect- H3K4me3&quot;</span>
+)
+
+<span class="hljs-comment"># Define genomic contexts for accessibility</span>
+opts$acc.annos &lt;- c(
+  <span class="hljs-comment"># &quot;genebody&quot;=&quot;Gene body&quot;,</span>
+  <span class="hljs-string">&quot;prom_2000_2000&quot;</span>=<span class="hljs-string">&quot;Promoters&quot;</span>,
+  <span class="hljs-comment"># &quot;prom_2000_2000_cgi&quot;=&quot;CGI promoters&quot;,</span>
+  <span class="hljs-comment"># &quot;prom_2000_2000_noncgi&quot;=&quot;non-CGI promoters&quot;,</span>
+  <span class="hljs-string">&quot;H3K27ac_distal_E7.5_Mes_intersect12&quot;</span>=<span class="hljs-string">&quot;Mesoderm enhancers&quot;</span>,
+  <span class="hljs-string">&quot;H3K27ac_distal_E7.5_End_intersect12&quot;</span>=<span class="hljs-string">&quot;Endoderm enhancers&quot;</span>,
+  <span class="hljs-string">&quot;H3K27ac_distal_E7.5_Ect_intersect12&quot;</span>=<span class="hljs-string">&quot;Ectoderm enhancers&quot;</span>
+  <span class="hljs-comment"># &quot;H3K4me3_E7.5_Mes&quot;=&quot;Mes- H3K4me3&quot;,</span>
+  <span class="hljs-comment"># &quot;H3K4me3_E7.5_End&quot;=&quot;End- H3K4me3&quot;,</span>
+  <span class="hljs-comment"># &quot;H3K4me3_E7.5_Ect&quot;=&quot;Ect- H3K4me3&quot;</span>
+)
+
+opts$annos &lt;- opts$met.annos &lt;- opts$acc.annos
+
+<span class="hljs-comment"># Overlap differential sites with nearby genes</span>
+opts$overlapGenes &lt;- <span class="hljs-literal">FALSE</span>
+
+<span class="hljs-comment"># window length for the overlap between genes and features</span>
+opts$gene_window &lt;- <span class="hljs-number">25000</span>
+
+<span class="hljs-comment"># How to select differential hits?</span>
+<span class="hljs-comment">#   Option 1 (more liberal): (lineage_A) vs (lineage_B,lineage_C)</span>
+<span class="hljs-comment">#   Option 2 (more conservative): (lineage_A vs lineage_B) AND (lineageA vs lineage_C)</span>
+opts$diff.type &lt;- <span class="hljs-number">2</span>
+opts$min.fdr &lt;- <span class="hljs-number">0.10</span>
+opts$min.acc.diff &lt;- <span class="hljs-number">5</span>
+opts$min.met.diff &lt;- <span class="hljs-number">5</span>
+
+<span class="hljs-comment"># Lineage colors</span>
+opts$colors &lt;- c(
+  Ectoderm = <span class="hljs-string">&quot;steelblue&quot;</span>, 
+  Endoderm = <span class="hljs-string">&quot;#43CD80&quot;</span>, 
+  Mesoderm = <span class="hljs-string">&quot;violetred&quot;</span>
+)
+
+<span class="hljs-comment">######################</span>
+<span class="hljs-comment">## Define functions ##</span>
+<span class="hljs-comment">######################</span>
+
+gg_barplot &lt;- <span class="hljs-keyword">function</span>(tmp, title = <span class="hljs-string">&quot;&quot;</span>, ylim=<span class="hljs-literal">NULL</span>) {
+
+  <span class="hljs-keyword">if</span> (is.null(ylim)) {
+    ylim &lt;- c(min(tmp$value, na.rm=<span class="hljs-literal">T</span>), max(tmp$value, na.rm=<span class="hljs-literal">T</span>))
+  }
+
+  p &lt;- ggplot(tmp, aes(x=anno, y=value)) +
+    geom_bar(aes(fill=assay), color=<span class="hljs-string">&quot;black&quot;</span>, stat=<span class="hljs-string">&quot;identity&quot;</span>, position=<span class="hljs-string">&quot;dodge&quot;</span>, size=<span class="hljs-number">0.25</span>) +
+    scale_fill_manual(values=c(<span class="hljs-string">&quot;met&quot;</span>=<span class="hljs-string">&quot;#F37A71&quot;</span>, <span class="hljs-string">&quot;acc&quot;</span>=<span class="hljs-string">&quot;#00BFC4&quot;</span>)) +
+    geom_hline(yintercept=<span class="hljs-number">0</span>, color=<span class="hljs-string">&quot;black&quot;</span>) +
+    scale_y_continuous(limits=c(ylim[<span class="hljs-number">1</span>],ylim[<span class="hljs-number">2</span>])) +
+    labs(title=i, x=<span class="hljs-string">&quot;&quot;</span>, y=<span class="hljs-string">&quot;Number of hits&quot;</span>) +
+    theme_bw() +
+    theme(
+      plot.title = element_text(size=<span class="hljs-number">11</span>, face=<span class="hljs-string">&apos;bold&apos;</span>, hjust=<span class="hljs-number">0.5</span>),
+      axis.text = element_text(size=rel(<span class="hljs-number">1.0</span>), color=<span class="hljs-string">&apos;black&apos;</span>),
+      axis.text.x = element_text(size=rel(<span class="hljs-number">1.0</span>), angle=<span class="hljs-number">60</span>, hjust=<span class="hljs-number">1</span>, vjust=<span class="hljs-number">1</span>, color=<span class="hljs-string">&quot;black&quot;</span>),
+      axis.ticks.x = element_blank(),
+      axis.title = element_text(size=rel(<span class="hljs-number">1.0</span>), color=<span class="hljs-string">&apos;black&apos;</span>),
+      axis.line = element_line(color=<span class="hljs-string">&quot;black&quot;</span>),
+      legend.position=<span class="hljs-string">&quot;none&quot;</span>
+    )
+
+  <span class="hljs-keyword">return</span>(p)
+}
+
+theme_pub &lt;- <span class="hljs-keyword">function</span>() {
+  theme_bw() +
+  theme(
+    axis.text.x = element_text(size=rel(<span class="hljs-number">1.2</span>), angle=<span class="hljs-number">60</span>, hjust=<span class="hljs-number">1</span>, vjust=<span class="hljs-number">1</span>, color=<span class="hljs-string">&quot;black&quot;</span>),
+    axis.text.y = element_text(size=rel(<span class="hljs-number">1.2</span>), color=<span class="hljs-string">&quot;black&quot;</span>),
+    axis.title.y = element_text(size=rel(<span class="hljs-number">1.2</span>), color=<span class="hljs-string">&quot;black&quot;</span>),
+    legend.position = <span class="hljs-string">&quot;right&quot;</span>
+    )
+}
+</code></pre>
+<h3 id="14-&#x52A0;&#x8F7D;&#x6837;&#x672C;&#x6570;&#x636E;">1.4 &#x52A0;&#x8F7D;&#x6837;&#x672C;&#x6570;&#x636E;</h3>
+<pre><code class="lang-R">sample_metadata &lt;- fread(io$sample.metadata) %&gt;%
+  .[,c(<span class="hljs-string">&quot;sample&quot;</span>,<span class="hljs-string">&quot;id_acc&quot;</span>,<span class="hljs-string">&quot;id_met&quot;</span>,<span class="hljs-string">&quot;id_rna&quot;</span>,<span class="hljs-string">&quot;stage&quot;</span>,<span class="hljs-string">&quot;lineage10x_2&quot;</span>)] %&gt;%
+  .[,stage_lineage:=paste(stage,lineage10x_2,sep=<span class="hljs-string">&quot; &quot;</span>)] %&gt;%
+  .[id_met%<span class="hljs-keyword">in</span>%opts$met.cells | id_acc%<span class="hljs-keyword">in</span>%opts$acc.cells]
+
+sample_metadata %&gt;% 
+  .[,stage_lineage:=ifelse(stage_lineage==<span class="hljs-string">&quot;E5.5 Epiblast&quot;</span>,<span class="hljs-string">&quot;E6.5 Epiblast&quot;</span>,stage_lineage)]
+</code></pre>
+<h3 id="15-&#x52A0;&#x8F7D;&#x57FA;&#x56E0;&#x6CE8;&#x91CA;">1.5 &#x52A0;&#x8F7D;&#x57FA;&#x56E0;&#x6CE8;&#x91CA;</h3>
+<pre><code class="lang-R"><span class="hljs-comment"># Load genomic annotations</span>
+anno_list &lt;- list()
+<span class="hljs-keyword">for</span> (anno <span class="hljs-keyword">in</span> names(opts$annos)) {
+  tmp &lt;- fread(sprintf(<span class="hljs-string">&quot;%s/%s.bed&quot;</span>,io$annos_dir,anno))[,c(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">4</span>,<span class="hljs-number">5</span>,<span class="hljs-number">6</span>)]
+  colnames(tmp) &lt;- c(<span class="hljs-string">&quot;chr&quot;</span>,<span class="hljs-string">&quot;start&quot;</span>,<span class="hljs-string">&quot;end&quot;</span>,<span class="hljs-string">&quot;strand&quot;</span>,<span class="hljs-string">&quot;id&quot;</span>,<span class="hljs-string">&quot;anno&quot;</span>)
+
+  <span class="hljs-comment"># Define central position for the window approach</span>
+  <span class="hljs-keyword">if</span> (opts$positions[anno] == <span class="hljs-string">&quot;start&quot;</span>) {
+    tmp &lt;- rbind(tmp[strand==<span class="hljs-string">&quot;+&quot;</span>,.(chr,start,strand,id,anno)] %&gt;% .[,center:=start] %&gt;% .[,c(<span class="hljs-string">&quot;start&quot;</span>):=<span class="hljs-literal">NULL</span>], 
+                 tmp[strand==<span class="hljs-string">&quot;-&quot;</span>,.(chr,end,strand,id,anno)] %&gt;% .[,center:=end] %&gt;% .[,c(<span class="hljs-string">&quot;end&quot;</span>):=<span class="hljs-literal">NULL</span>]) 
+  }
+  <span class="hljs-keyword">if</span> (opts$positions[anno] == <span class="hljs-string">&quot;center&quot;</span>) {
+    stopifnot(all(tmp[,end] &gt; tmp[,start]))
+    tmp &lt;- tmp[,.(chr,start,end,strand,id,anno)][,center:=round(end+start)/<span class="hljs-number">2</span>][,c(<span class="hljs-string">&quot;start&quot;</span>,<span class="hljs-string">&quot;end&quot;</span>):=<span class="hljs-literal">NULL</span>]
+  }
+  <span class="hljs-keyword">if</span> (opts$positions[anno] == <span class="hljs-string">&quot;end&quot;</span>) {
+    tmp &lt;- rbind(tmp[strand==<span class="hljs-string">&quot;+&quot;</span>,.(chr,end,strand,id,anno)][,center:=end][,c(<span class="hljs-string">&quot;end&quot;</span>):=<span class="hljs-literal">NULL</span>], 
+                 tmp[strand==<span class="hljs-string">&quot;-&quot;</span>,.(chr,start,strand,id,anno)][,center:=start][,c(<span class="hljs-string">&quot;start&quot;</span>):=<span class="hljs-literal">NULL</span>])
+  }
+  anno_list[[anno]] &lt;- tmp %&gt;% .[, c(<span class="hljs-string">&quot;start&quot;</span>,<span class="hljs-string">&quot;end&quot;</span>) := list(center-opts$window_size,center+opts$window_size)]
+}
+
+anno_df &lt;- rbindlist(anno_list) %&gt;% 
+  .[,chr:=sub(<span class="hljs-string">&quot;chr&quot;</span>,<span class="hljs-string">&quot;&quot;</span>,chr)] %&gt;%
+  setkey(chr,start,end)
+
+rm(anno_list)
+</code></pre>
+<h3 id="16-&#x52A0;&#x8F7D;rna&#x5DEE;&#x5F02;&#x8868;&#x8FBE;&#x5206;&#x6790;&#x7ED3;&#x679C;">1.6 &#x52A0;&#x8F7D;RNA&#x5DEE;&#x5F02;&#x8868;&#x8FBE;&#x5206;&#x6790;&#x7ED3;&#x679C;</h3>
+<pre><code>if (!is.null(io$diff.rna)) {
+  if (opts$diff.type==1) {
+
+    # Mesoderm-specific
+    diff.rna.mes &lt;- fread(sprintf(&quot;%s/E7.5Mesoderm_vs_E7.5EndodermEctoderm.txt.gz&quot;,io$diff.rna)) %&gt;%
+      .[,lineage:=&quot;Mesoderm&quot;] %&gt;% .[,sig:=padj_fdr&lt;opts$min.fdr &amp; abs(logFC)&gt;opts$min.rna.diff]
+
+    # Ectoderm-specific
+    diff.rna.ect &lt;- fread(sprintf(&quot;%s/E7.5Ectoderm_vs_E7.5MesodermEndoderm.txt.gz&quot;,io$diff.rna)) %&gt;%
+      .[,lineage:=&quot;Ectoderm&quot;] %&gt;% .[,sig:=padj_fdr&lt;opts$min.fdr &amp; abs(logFC)&gt;opts$min.rna.diff]
+
+    # Endoderm-specific
+    diff.rna.end &lt;- fread(sprintf(&quot;%s/E7.5Endoderm_vs_E7.5MesodermEctoderm.txt.gz&quot;,io$diff.rna)) %&gt;%
+      .[,lineage:=&quot;Endoderm&quot;] %&gt;% .[,sig:=padj_fdr&lt;opts$min.fdr &amp; abs(logFC)&gt;opts$min.rna.diff]
+
+  } else if (opts$diff.type%in%c(2,3)) {
+
+    # Mesoderm-specific
+    diff.rna.mes &lt;- rbind(
+        fread(sprintf(&quot;%s/E7.5Mesoderm_vs_E7.5Endoderm.txt.gz&quot;,io$diff.rna)) %&gt;% .[,lineage2:=&quot;Endoderm&quot;],
+        fread(sprintf(&quot;%s/E7.5Mesoderm_vs_E7.5Ectoderm.txt.gz&quot;,io$diff.rna)) %&gt;% .[,lineage2:=&quot;Ectoderm&quot;]
+      ) %&gt;% .[,lineage1:=&quot;Mesoderm&quot;] %&gt;% 
+      .[,sig:=padj_fdr&lt;opts$min.fdr &amp; abs(logFC)&gt;opts$min.rna.diff] %&gt;% 
+      data.table::dcast(id+symbol+lineage1~lineage2, value.var=c(&quot;logFC&quot;,&quot;padj_fdr&quot;,&quot;sig&quot;)) %&gt;%
+      .[,sig:=sig_Endoderm==T &amp; sig_Ectoderm==T &amp; sign(logFC_Ectoderm)==sign(logFC_Endoderm)] %&gt;%
+      .[,logFC:=(logFC_Endoderm+logFC_Ectoderm)/2] %&gt;%
+      .[,c(&quot;id&quot;,&quot;symbol&quot;,&quot;lineage1&quot;,&quot;logFC&quot;,&quot;sig&quot;)] %&gt;% setnames(&quot;lineage1&quot;,&quot;lineage&quot;)
+
+
+    # Ectoderm-specific
+    diff.rna.ect &lt;- rbind(
+      fread(sprintf(&quot;%s/E7.5Ectoderm_vs_E7.5Endoderm.txt.gz&quot;,io$diff.rna)) %&gt;% .[,lineage2:=&quot;Endoderm&quot;],
+      fread(sprintf(&quot;%s/E7.5Ectoderm_vs_E7.5Mesoderm.txt.gz&quot;,io$diff.rna)) %&gt;% .[,lineage2:=&quot;Mesoderm&quot;]
+    ) %&gt;% .[,lineage1:=&quot;Ectoderm&quot;] %&gt;% 
+      .[,sig:=padj_fdr&lt;opts$min.fdr &amp; abs(logFC)&gt;opts$min.rna.diff] %&gt;% 
+      data.table::dcast(id+symbol+lineage1~lineage2, value.var=c(&quot;logFC&quot;,&quot;padj_fdr&quot;,&quot;sig&quot;)) %&gt;%
+      .[,sig:=sig_Mesoderm==T &amp; sig_Endoderm==T &amp; sign(logFC_Endoderm)==sign(logFC_Mesoderm)] %&gt;%
+      .[,logFC:=(logFC_Endoderm+logFC_Mesoderm)/2] %&gt;%
+      .[,c(&quot;id&quot;,&quot;symbol&quot;,&quot;lineage1&quot;,&quot;logFC&quot;,&quot;sig&quot;)] %&gt;% setnames(&quot;lineage1&quot;,&quot;lineage&quot;)
+
+    # Endoderm-specific
+    diff.rna.end &lt;- rbind(
+      fread(sprintf(&quot;%s/E7.5Endoderm_vs_E7.5Ectoderm.txt.gz&quot;,io$diff.rna)) %&gt;% .[,lineage2:=&quot;Ectoderm&quot;],
+      fread(sprintf(&quot;%s/E7.5Endoderm_vs_E7.5Mesoderm.txt.gz&quot;,io$diff.rna)) %&gt;% .[,lineage2:=&quot;Mesoderm&quot;]
+    ) %&gt;% .[,lineage1:=&quot;Endoderm&quot;] %&gt;% 
+      .[,sig:=padj_fdr&lt;opts$min.fdr &amp; abs(logFC)&gt;opts$min.rna.diff] %&gt;% 
+      data.table::dcast(id+symbol+lineage1~lineage2, value.var=c(&quot;logFC&quot;,&quot;padj_fdr&quot;,&quot;sig&quot;)) %&gt;%
+      .[,sig:=sig_Mesoderm==T &amp; sig_Ectoderm==T &amp; sign(logFC_Ectoderm)==sign(logFC_Mesoderm)] %&gt;%
+      .[,logFC:=(logFC_Ectoderm+logFC_Mesoderm)/2] %&gt;%
+      .[,c(&quot;id&quot;,&quot;symbol&quot;,&quot;lineage1&quot;,&quot;logFC&quot;,&quot;sig&quot;)] %&gt;% setnames(&quot;lineage1&quot;,&quot;lineage&quot;)
+  }
+
+  diff.rna &lt;- do.call(&quot;rbind&quot;, list(diff.rna.mes,diff.rna.end,diff.rna.ect))
+  rm(diff.rna.mes,diff.rna.ect,diff.rna.end)
+}
+</code></pre><h3 id="17-&#x52A0;&#x8F7D;met&#x5DEE;&#x5F02;&#x8868;&#x8FBE;&#x5206;&#x6790;&#x7ED3;&#x679C;">1.7 &#x52A0;&#x8F7D;Met&#x5DEE;&#x5F02;&#x8868;&#x8FBE;&#x5206;&#x6790;&#x7ED3;&#x679C;</h3>
+<pre><code class="lang-R"><span class="hljs-keyword">if</span> (!is.null(io$diff.met)) {
+
+  <span class="hljs-comment"># Mesoderm-specific</span>
+  <span class="hljs-keyword">if</span> (opts$diff.type==<span class="hljs-number">1</span>) {
+    diff.met.mes &lt;- lapply(names(opts$met.annos), <span class="hljs-keyword">function</span>(x)
+    <span class="hljs-comment"># diff.met.mes &lt;- lapply(list(&quot;H3K27ac_distal_E7.5_Mes_intersect12&quot;), function(x)</span>
+      fread(sprintf(<span class="hljs-string">&quot;%s/E7.5Mesoderm_vs_E7.5EndodermEctoderm_%s.txt.gz&quot;</span>,io$diff.met,x))
+    ) %&gt;% rbindlist() %&gt;% .[,lineage:=<span class="hljs-string">&quot;Mesoderm&quot;</span>] %&gt;%
+      .[,sig:=padj_fdr&lt;opts$min.fdr &amp; abs(diff)&gt;opts$min.met.diff]
+
+    <span class="hljs-comment"># Ectoderm-specific</span>
+    diff.met.ect &lt;- lapply(names(opts$met.annos), <span class="hljs-keyword">function</span>(x)
+    <span class="hljs-comment"># diff.met.ect &lt;- lapply(list(&quot;H3K27ac_distal_E7.5_Ect_intersect12&quot;), function(x)</span>
+      fread(sprintf(<span class="hljs-string">&quot;%s/E7.5Ectoderm_vs_E7.5MesodermEndoderm_%s.txt.gz&quot;</span>,io$diff.met,x))
+    ) %&gt;% rbindlist() %&gt;% .[,lineage:=<span class="hljs-string">&quot;Ectoderm&quot;</span>] %&gt;%
+      .[,sig:=padj_fdr&lt;opts$min.fdr &amp; abs(diff)&gt;opts$min.met.diff]
+
+    <span class="hljs-comment"># Endoderm-specific</span>
+    diff.met.end &lt;- lapply(names(opts$met.annos), <span class="hljs-keyword">function</span>(x)
+    <span class="hljs-comment"># diff.met.end &lt;- lapply(list(&quot;H3K27ac_distal_E7.5_End_intersect12&quot;), function(x)</span>
+      fread(sprintf(<span class="hljs-string">&quot;%s/E7.5Endoderm_vs_E7.5MesodermEctoderm_%s.txt.gz&quot;</span>,io$diff.met,x))
+    ) %&gt;% rbindlist() %&gt;% .[,lineage:=<span class="hljs-string">&quot;Endoderm&quot;</span>] %&gt;%
+      .[,sig:=padj_fdr&lt;opts$min.fdr &amp; abs(diff)&gt;opts$min.met.diff]
+  }
+
+  <span class="hljs-keyword">if</span> (opts$diff.type==<span class="hljs-number">2</span>) {
+
+    <span class="hljs-comment"># Mesoderm-specific</span>
+    diff.met.mes &lt;- lapply(names(opts$met.annos), <span class="hljs-keyword">function</span>(x)
+      rbind(
+        fread(sprintf(<span class="hljs-string">&quot;%s/E7.5Mesoderm_vs_E7.5Endoderm_%s.txt.gz&quot;</span>,io$diff.met,x)) %&gt;% .[,lineage2:=<span class="hljs-string">&quot;Endoderm&quot;</span>],
+        fread(sprintf(<span class="hljs-string">&quot;%s/E7.5Mesoderm_vs_E7.5Ectoderm_%s.txt.gz&quot;</span>,io$diff.met,x)) %&gt;% .[,lineage2:=<span class="hljs-string">&quot;Ectoderm&quot;</span>]
+      )) %&gt;% rbindlist %&gt;% .[,lineage1:=<span class="hljs-string">&quot;Mesoderm&quot;</span>] %&gt;% 
+      .[,sig:=padj_fdr&lt;opts$min.fdr &amp; abs(diff)&gt;opts$min.met.diff] %&gt;%
+      data.table::dcast(id+anno+lineage1~lineage2, value.var=c(<span class="hljs-string">&quot;diff&quot;</span>,<span class="hljs-string">&quot;padj_fdr&quot;</span>,<span class="hljs-string">&quot;sig&quot;</span>)) %&gt;%
+      .[,sig:=sig_Endoderm==<span class="hljs-literal">T</span> &amp; sig_Ectoderm==<span class="hljs-literal">T</span> &amp; sign(diff_Ectoderm)==sign(diff_Endoderm)] %&gt;%
+      .[,diff:=(diff_Endoderm+diff_Ectoderm)/<span class="hljs-number">2</span>] %&gt;%
+      .[,c(<span class="hljs-string">&quot;id&quot;</span>,<span class="hljs-string">&quot;anno&quot;</span>,<span class="hljs-string">&quot;lineage1&quot;</span>,<span class="hljs-string">&quot;diff&quot;</span>,<span class="hljs-string">&quot;sig&quot;</span>)] %&gt;% setnames(<span class="hljs-string">&quot;lineage1&quot;</span>,<span class="hljs-string">&quot;lineage&quot;</span>)
+
+    <span class="hljs-comment"># Ectoderm-specific</span>
+    diff.met.ect &lt;- lapply(names(opts$met.annos), <span class="hljs-keyword">function</span>(x)
+      rbind(
+        fread(sprintf(<span class="hljs-string">&quot;%s/E7.5Ectoderm_vs_E7.5Endoderm_%s.txt.gz&quot;</span>,io$diff.met,x)) %&gt;% .[,lineage2:=<span class="hljs-string">&quot;Endoderm&quot;</span>],
+        fread(sprintf(<span class="hljs-string">&quot;%s/E7.5Ectoderm_vs_E7.5Mesoderm_%s.txt.gz&quot;</span>,io$diff.met,x)) %&gt;% .[,lineage2:=<span class="hljs-string">&quot;Mesoderm&quot;</span>]
+      )) %&gt;% rbindlist() %&gt;% .[,lineage1:=<span class="hljs-string">&quot;Ectoderm&quot;</span>] %&gt;% 
+      .[,sig:=padj_fdr&lt;opts$min.fdr &amp; abs(diff)&gt;opts$min.met.diff] %&gt;%
+      data.table::dcast(id+anno+lineage1~lineage2, value.var=c(<span class="hljs-string">&quot;diff&quot;</span>,<span class="hljs-string">&quot;padj_fdr&quot;</span>,<span class="hljs-string">&quot;sig&quot;</span>)) %&gt;%
+      .[,sig:=sig_Endoderm==<span class="hljs-literal">T</span> &amp; sig_Mesoderm==<span class="hljs-literal">T</span> &amp; sign(diff_Endoderm)==sign(diff_Mesoderm)] %&gt;%
+      .[,diff:=(diff_Endoderm+diff_Mesoderm)/<span class="hljs-number">2</span>] %&gt;%
+      .[,c(<span class="hljs-string">&quot;id&quot;</span>,<span class="hljs-string">&quot;anno&quot;</span>,<span class="hljs-string">&quot;lineage1&quot;</span>,<span class="hljs-string">&quot;diff&quot;</span>,<span class="hljs-string">&quot;sig&quot;</span>)] %&gt;% setnames(<span class="hljs-string">&quot;lineage1&quot;</span>,<span class="hljs-string">&quot;lineage&quot;</span>)
+
+    <span class="hljs-comment"># Endoderm-specific</span>
+    diff.met.end &lt;- lapply(names(opts$met.annos), <span class="hljs-keyword">function</span>(x)
+      rbind(
+        fread(sprintf(<span class="hljs-string">&quot;%s/E7.5Endoderm_vs_E7.5Mesoderm_%s.txt.gz&quot;</span>,io$diff.met,x)) %&gt;% .[,lineage2:=<span class="hljs-string">&quot;Mesoderm&quot;</span>],
+        fread(sprintf(<span class="hljs-string">&quot;%s/E7.5Endoderm_vs_E7.5Ectoderm_%s.txt.gz&quot;</span>,io$diff.met,x)) %&gt;% .[,lineage2:=<span class="hljs-string">&quot;Ectoderm&quot;</span>]
+      )) %&gt;% rbindlist() %&gt;% .[,lineage1:=<span class="hljs-string">&quot;Endoderm&quot;</span>] %&gt;% 
+      .[,sig:=padj_fdr&lt;opts$min.fdr &amp; abs(diff)&gt;opts$min.met.diff] %&gt;%
+      data.table::dcast(id+anno+lineage1~lineage2, value.var=c(<span class="hljs-string">&quot;diff&quot;</span>,<span class="hljs-string">&quot;padj_fdr&quot;</span>,<span class="hljs-string">&quot;sig&quot;</span>)) %&gt;%
+      .[,sig:=sig_Mesoderm==<span class="hljs-literal">T</span> &amp; sig_Ectoderm==<span class="hljs-literal">T</span> &amp; sign(diff_Ectoderm)==sign(diff_Mesoderm)] %&gt;%
+      .[,diff:=(diff_Mesoderm+diff_Ectoderm)/<span class="hljs-number">2</span>] %&gt;%
+      .[,c(<span class="hljs-string">&quot;id&quot;</span>,<span class="hljs-string">&quot;anno&quot;</span>,<span class="hljs-string">&quot;lineage1&quot;</span>,<span class="hljs-string">&quot;diff&quot;</span>,<span class="hljs-string">&quot;sig&quot;</span>)] %&gt;% setnames(<span class="hljs-string">&quot;lineage1&quot;</span>,<span class="hljs-string">&quot;lineage&quot;</span>)
+    }
+    <span class="hljs-keyword">if</span> (opts$diff.type==<span class="hljs-number">3</span>) {
+
+    <span class="hljs-comment"># Mesoderm-specific</span>
+    diff.met.mes &lt;- lapply(list(<span class="hljs-string">&quot;H3K27ac_distal_E7.5_Mes_intersect12&quot;</span>), <span class="hljs-keyword">function</span>(x)
+      rbind(
+        fread(sprintf(<span class="hljs-string">&quot;%s/E7.5Mesoderm_vs_E7.5Endoderm_%s.txt.gz&quot;</span>,io$diff.met,x)) %&gt;% .[,lineage2:=<span class="hljs-string">&quot;Endoderm&quot;</span>],
+        fread(sprintf(<span class="hljs-string">&quot;%s/E7.5Mesoderm_vs_E7.5Ectoderm_%s.txt.gz&quot;</span>,io$diff.met,x)) %&gt;% .[,lineage2:=<span class="hljs-string">&quot;Ectoderm&quot;</span>]
+      )) %&gt;% rbindlist %&gt;% .[,lineage1:=<span class="hljs-string">&quot;Mesoderm&quot;</span>] %&gt;% 
+      .[,sig:=padj_fdr&lt;opts$min.fdr &amp; abs(diff)&gt;opts$min.met.diff] %&gt;%
+      data.table::dcast(id+anno+lineage1~lineage2, value.var=c(<span class="hljs-string">&quot;diff&quot;</span>,<span class="hljs-string">&quot;padj_fdr&quot;</span>,<span class="hljs-string">&quot;sig&quot;</span>)) %&gt;%
+      .[,sig:=sig_Endoderm==<span class="hljs-literal">T</span> &amp; sig_Ectoderm==<span class="hljs-literal">T</span> &amp; sign(diff_Ectoderm)==sign(diff_Endoderm)] %&gt;%
+      .[,diff:=(diff_Endoderm+diff_Ectoderm)/<span class="hljs-number">2</span>] %&gt;%
+      .[,c(<span class="hljs-string">&quot;id&quot;</span>,<span class="hljs-string">&quot;anno&quot;</span>,<span class="hljs-string">&quot;lineage1&quot;</span>,<span class="hljs-string">&quot;diff&quot;</span>,<span class="hljs-string">&quot;sig&quot;</span>)] %&gt;% setnames(<span class="hljs-string">&quot;lineage1&quot;</span>,<span class="hljs-string">&quot;lineage&quot;</span>)
+
+    <span class="hljs-comment"># Ectoderm-specific</span>
+    diff.met.ect &lt;- lapply(list(<span class="hljs-string">&quot;H3K27ac_distal_E7.5_Ect_intersect12&quot;</span>), <span class="hljs-keyword">function</span>(x)
+      rbind(
+        fread(sprintf(<span class="hljs-string">&quot;%s/E7.5Ectoderm_vs_E7.5Endoderm_%s.txt.gz&quot;</span>,io$diff.met,x)) %&gt;% .[,lineage2:=<span class="hljs-string">&quot;Endoderm&quot;</span>],
+        fread(sprintf(<span class="hljs-string">&quot;%s/E7.5Ectoderm_vs_E7.5Mesoderm_%s.txt.gz&quot;</span>,io$diff.met,x)) %&gt;% .[,lineage2:=<span class="hljs-string">&quot;Mesoderm&quot;</span>]
+      )) %&gt;% rbindlist() %&gt;% .[,lineage1:=<span class="hljs-string">&quot;Ectoderm&quot;</span>] %&gt;% 
+      .[,sig:=padj_fdr&lt;opts$min.fdr &amp; abs(diff)&gt;opts$min.met.diff] %&gt;%
+      data.table::dcast(id+anno+lineage1~lineage2, value.var=c(<span class="hljs-string">&quot;diff&quot;</span>,<span class="hljs-string">&quot;padj_fdr&quot;</span>,<span class="hljs-string">&quot;sig&quot;</span>)) %&gt;%
+      .[,sig:=sig_Endoderm==<span class="hljs-literal">T</span> &amp; sig_Mesoderm==<span class="hljs-literal">T</span> &amp; sign(diff_Endoderm)==sign(diff_Mesoderm)] %&gt;%
+      .[,diff:=(diff_Endoderm+diff_Mesoderm)/<span class="hljs-number">2</span>] %&gt;%
+      .[,c(<span class="hljs-string">&quot;id&quot;</span>,<span class="hljs-string">&quot;anno&quot;</span>,<span class="hljs-string">&quot;lineage1&quot;</span>,<span class="hljs-string">&quot;diff&quot;</span>,<span class="hljs-string">&quot;sig&quot;</span>)] %&gt;% setnames(<span class="hljs-string">&quot;lineage1&quot;</span>,<span class="hljs-string">&quot;lineage&quot;</span>)
+
+    <span class="hljs-comment"># Endoderm-specific</span>
+    diff.met.end &lt;- lapply(list(<span class="hljs-string">&quot;H3K27ac_distal_E7.5_End_intersect12&quot;</span>), <span class="hljs-keyword">function</span>(x)
+      rbind(
+        fread(sprintf(<span class="hljs-string">&quot;%s/E7.5Endoderm_vs_E7.5Mesoderm_%s.txt.gz&quot;</span>,io$diff.met,x)) %&gt;% .[,lineage2:=<span class="hljs-string">&quot;Mesoderm&quot;</span>],
+        fread(sprintf(<span class="hljs-string">&quot;%s/E7.5Endoderm_vs_E7.5Ectoderm_%s.txt.gz&quot;</span>,io$diff.met,x)) %&gt;% .[,lineage2:=<span class="hljs-string">&quot;Ectoderm&quot;</span>]
+      )) %&gt;% rbindlist() %&gt;% .[,lineage1:=<span class="hljs-string">&quot;Endoderm&quot;</span>] %&gt;% 
+      .[,sig:=padj_fdr&lt;opts$min.fdr &amp; abs(diff)&gt;opts$min.met.diff] %&gt;%
+      data.table::dcast(id+anno+lineage1~lineage2, value.var=c(<span class="hljs-string">&quot;diff&quot;</span>,<span class="hljs-string">&quot;padj_fdr&quot;</span>,<span class="hljs-string">&quot;sig&quot;</span>)) %&gt;%
+      .[,sig:=sig_Mesoderm==<span class="hljs-literal">T</span> &amp; sig_Ectoderm==<span class="hljs-literal">T</span> &amp; sign(diff_Ectoderm)==sign(diff_Mesoderm)] %&gt;%
+      .[,diff:=(diff_Mesoderm+diff_Ectoderm)/<span class="hljs-number">2</span>] %&gt;%
+      .[,c(<span class="hljs-string">&quot;id&quot;</span>,<span class="hljs-string">&quot;anno&quot;</span>,<span class="hljs-string">&quot;lineage1&quot;</span>,<span class="hljs-string">&quot;diff&quot;</span>,<span class="hljs-string">&quot;sig&quot;</span>)] %&gt;% setnames(<span class="hljs-string">&quot;lineage1&quot;</span>,<span class="hljs-string">&quot;lineage&quot;</span>)
+    }
+
+  diff.met &lt;- do.call(<span class="hljs-string">&quot;rbind&quot;</span>, list(diff.met.mes,diff.met.end,diff.met.ect))
+  rm(diff.met.mes,diff.met.ect,diff.met.end)
+}
+</code></pre>
+<h3 id="18-&#x52A0;&#x8F7D;acc&#x5DEE;&#x5F02;&#x8868;&#x8FBE;&#x5206;&#x6790;&#x7ED3;&#x679C;">1.8 &#x52A0;&#x8F7D;Acc&#x5DEE;&#x5F02;&#x8868;&#x8FBE;&#x5206;&#x6790;&#x7ED3;&#x679C;</h3>
+<pre><code class="lang-R"><span class="hljs-keyword">if</span> (!is.null(io$diff.acc)) {
+
+  <span class="hljs-keyword">if</span> (opts$diff.type==<span class="hljs-number">1</span>) {
+
+    <span class="hljs-comment"># Mesoderm-specific</span>
+    diff.acc.mes &lt;- lapply(names(opts$acc.annos), <span class="hljs-keyword">function</span>(x)
+      fread(sprintf(<span class="hljs-string">&quot;%s/E7.5Mesoderm_vs_E7.5EndodermEctoderm_%s.txt.gz&quot;</span>,io$diff.acc,x))
+    ) %&gt;% rbindlist() %&gt;% .[,lineage:=<span class="hljs-string">&quot;Mesoderm&quot;</span>] %&gt;%
+      .[,sig:=padj_fdr&lt;opts$min.fdr &amp; abs(diff)&gt;opts$min.acc.diff]
+
+    <span class="hljs-comment"># Ectoderm-specific</span>
+    diff.acc.ect &lt;- lapply(names(opts$acc.annos), <span class="hljs-keyword">function</span>(x)
+      fread(sprintf(<span class="hljs-string">&quot;%s/E7.5Ectoderm_vs_E7.5MesodermEndoderm_%s.txt.gz&quot;</span>,io$diff.acc,x))
+    ) %&gt;% rbindlist() %&gt;% .[,lineage:=<span class="hljs-string">&quot;Ectoderm&quot;</span>] %&gt;%
+      .[,sig:=padj_fdr&lt;opts$min.fdr &amp; abs(diff)&gt;opts$min.acc.diff]
+
+    <span class="hljs-comment"># Endoderm-specific</span>
+    diff.acc.end &lt;- lapply(names(opts$acc.annos), <span class="hljs-keyword">function</span>(x)
+      fread(sprintf(<span class="hljs-string">&quot;%s/E7.5Endoderm_vs_E7.5MesodermEctoderm_%s.txt.gz&quot;</span>,io$diff.acc,x))
+    ) %&gt;% rbindlist() %&gt;% .[,lineage:=<span class="hljs-string">&quot;Endoderm&quot;</span>] %&gt;%
+      .[,sig:=padj_fdr&lt;opts$min.fdr &amp; abs(diff)&gt;opts$min.acc.diff]
+
+  }
+
+  <span class="hljs-keyword">if</span> (opts$diff.type==<span class="hljs-number">2</span>) {
+    <span class="hljs-comment"># Mesoderm-specific</span>
+    diff.acc.mes &lt;- lapply(names(opts$acc.annos), <span class="hljs-keyword">function</span>(x)
+    <span class="hljs-comment"># diff.acc.mes &lt;- lapply(list(&quot;H3K27ac_distal_E7.5_Mes_intersect12&quot;), function(x)</span>
+      rbind(
+        fread(sprintf(<span class="hljs-string">&quot;%s/E7.5Mesoderm_vs_E7.5Endoderm_%s.txt.gz&quot;</span>,io$diff.acc,x)) %&gt;% .[,lineage2:=<span class="hljs-string">&quot;Endoderm&quot;</span>],
+        fread(sprintf(<span class="hljs-string">&quot;%s/E7.5Mesoderm_vs_E7.5Ectoderm_%s.txt.gz&quot;</span>,io$diff.acc,x)) %&gt;% .[,lineage2:=<span class="hljs-string">&quot;Ectoderm&quot;</span>]
+      )) %&gt;% rbindlist() %&gt;% .[,lineage1:=<span class="hljs-string">&quot;Mesoderm&quot;</span>] %&gt;% 
+      .[,sig:=padj_fdr&lt;opts$min.fdr &amp; abs(diff)&gt;opts$min.acc.diff] %&gt;%
+      data.table::dcast(id+anno+lineage1~lineage2, value.var=c(<span class="hljs-string">&quot;diff&quot;</span>,<span class="hljs-string">&quot;padj_fdr&quot;</span>,<span class="hljs-string">&quot;sig&quot;</span>)) %&gt;%
+      .[,sig:=sig_Endoderm==<span class="hljs-literal">T</span> &amp; sig_Ectoderm==<span class="hljs-literal">T</span> &amp; sign(diff_Endoderm)==sign(diff_Ectoderm)] %&gt;%
+      .[,diff:=(diff_Endoderm+diff_Ectoderm)/<span class="hljs-number">2</span>] %&gt;%
+      .[,c(<span class="hljs-string">&quot;id&quot;</span>,<span class="hljs-string">&quot;anno&quot;</span>,<span class="hljs-string">&quot;lineage1&quot;</span>,<span class="hljs-string">&quot;diff&quot;</span>,<span class="hljs-string">&quot;sig&quot;</span>)] %&gt;% setnames(<span class="hljs-string">&quot;lineage1&quot;</span>,<span class="hljs-string">&quot;lineage&quot;</span>)
+
+    <span class="hljs-comment"># Ectoderm-specific</span>
+    <span class="hljs-comment"># diff.acc.ect &lt;- lapply(list(&quot;H3K27ac_distal_E7.5_Ect_intersect12&quot;), function(x)</span>
+    diff.acc.ect &lt;- lapply(names(opts$acc.annos), <span class="hljs-keyword">function</span>(x)
+      rbind(
+        fread(sprintf(<span class="hljs-string">&quot;%s/E7.5Ectoderm_vs_E7.5Endoderm_%s.txt.gz&quot;</span>,io$diff.acc,x)) %&gt;% .[,lineage2:=<span class="hljs-string">&quot;Endoderm&quot;</span>],
+        fread(sprintf(<span class="hljs-string">&quot;%s/E7.5Ectoderm_vs_E7.5Mesoderm_%s.txt.gz&quot;</span>,io$diff.acc,x)) %&gt;% .[,lineage2:=<span class="hljs-string">&quot;Mesoderm&quot;</span>]
+      )) %&gt;% rbindlist() %&gt;% .[,lineage1:=<span class="hljs-string">&quot;Ectoderm&quot;</span>] %&gt;% 
+      .[,sig:=padj_fdr&lt;opts$min.fdr &amp; abs(diff)&gt;opts$min.acc.diff] %&gt;%
+      data.table::dcast(id+anno+lineage1~lineage2, value.var=c(<span class="hljs-string">&quot;diff&quot;</span>,<span class="hljs-string">&quot;padj_fdr&quot;</span>,<span class="hljs-string">&quot;sig&quot;</span>)) %&gt;%
+      .[,sig:=sig_Endoderm==<span class="hljs-literal">T</span> &amp; sig_Mesoderm==<span class="hljs-literal">T</span> &amp; sign(diff_Endoderm)==sign(diff_Mesoderm)] %&gt;%
+      .[,diff:=(diff_Endoderm+diff_Mesoderm)/<span class="hljs-number">2</span>] %&gt;%
+      .[,c(<span class="hljs-string">&quot;id&quot;</span>,<span class="hljs-string">&quot;anno&quot;</span>,<span class="hljs-string">&quot;lineage1&quot;</span>,<span class="hljs-string">&quot;diff&quot;</span>,<span class="hljs-string">&quot;sig&quot;</span>)] %&gt;% setnames(<span class="hljs-string">&quot;lineage1&quot;</span>,<span class="hljs-string">&quot;lineage&quot;</span>)
+
+    <span class="hljs-comment"># Endoderm-specific</span>
+    <span class="hljs-comment"># diff.acc.end &lt;- lapply(list(&quot;H3K27ac_distal_E7.5_End_intersect12&quot;), function(x)</span>
+    diff.acc.end &lt;- lapply(names(opts$acc.annos), <span class="hljs-keyword">function</span>(x)
+      rbind(
+        fread(sprintf(<span class="hljs-string">&quot;%s/E7.5Endoderm_vs_E7.5Mesoderm_%s.txt.gz&quot;</span>,io$diff.acc,x)) %&gt;% .[,lineage2:=<span class="hljs-string">&quot;Mesoderm&quot;</span>],
+        fread(sprintf(<span class="hljs-string">&quot;%s/E7.5Endoderm_vs_E7.5Ectoderm_%s.txt.gz&quot;</span>,io$diff.acc,x)) %&gt;% .[,lineage2:=<span class="hljs-string">&quot;Ectoderm&quot;</span>]
+      )) %&gt;% rbindlist() %&gt;% .[,lineage1:=<span class="hljs-string">&quot;Endoderm&quot;</span>] %&gt;% 
+      .[,sig:=padj_fdr&lt;opts$min.fdr &amp; abs(diff)&gt;opts$min.acc.diff] %&gt;%
+      data.table::dcast(id+anno+lineage1~lineage2, value.var=c(<span class="hljs-string">&quot;diff&quot;</span>,<span class="hljs-string">&quot;padj_fdr&quot;</span>,<span class="hljs-string">&quot;sig&quot;</span>)) %&gt;%
+      .[,sig:=sig_Mesoderm==<span class="hljs-literal">T</span> &amp; sig_Ectoderm==<span class="hljs-literal">T</span> &amp; sign(diff_Mesoderm)==sign(diff_Ectoderm)] %&gt;%
+      .[,diff:=(diff_Mesoderm+diff_Ectoderm)/<span class="hljs-number">2</span>] %&gt;%
+      .[,c(<span class="hljs-string">&quot;id&quot;</span>,<span class="hljs-string">&quot;anno&quot;</span>,<span class="hljs-string">&quot;lineage1&quot;</span>,<span class="hljs-string">&quot;diff&quot;</span>,<span class="hljs-string">&quot;sig&quot;</span>)] %&gt;% setnames(<span class="hljs-string">&quot;lineage1&quot;</span>,<span class="hljs-string">&quot;lineage&quot;</span>)
+  }
+
+
+  <span class="hljs-keyword">if</span> (opts$diff.type==<span class="hljs-number">3</span>) {
+
+    <span class="hljs-comment"># Mesoderm-specific</span>
+    diff.acc.mes &lt;- lapply(list(<span class="hljs-string">&quot;H3K27ac_distal_E7.5_Mes_intersect12&quot;</span>), <span class="hljs-keyword">function</span>(x)
+      rbind(
+        fread(sprintf(<span class="hljs-string">&quot;%s/E7.5Mesoderm_vs_E7.5Endoderm_%s.txt.gz&quot;</span>,io$diff.acc,x)) %&gt;% .[,lineage2:=<span class="hljs-string">&quot;Endoderm&quot;</span>],
+        fread(sprintf(<span class="hljs-string">&quot;%s/E7.5Mesoderm_vs_E7.5Ectoderm_%s.txt.gz&quot;</span>,io$diff.acc,x)) %&gt;% .[,lineage2:=<span class="hljs-string">&quot;Ectoderm&quot;</span>]
+      )) %&gt;% rbindlist() %&gt;% .[,lineage1:=<span class="hljs-string">&quot;Mesoderm&quot;</span>] %&gt;% 
+      .[,sig:=padj_fdr&lt;opts$min.fdr &amp; abs(diff)&gt;opts$min.acc.diff] %&gt;%
+      data.table::dcast(id+anno+lineage1~lineage2, value.var=c(<span class="hljs-string">&quot;diff&quot;</span>,<span class="hljs-string">&quot;padj_fdr&quot;</span>,<span class="hljs-string">&quot;sig&quot;</span>)) %&gt;%
+      .[,sig:=sig_Endoderm==<span class="hljs-literal">T</span> &amp; sig_Ectoderm==<span class="hljs-literal">T</span> &amp; sign(diff_Endoderm)==sign(diff_Ectoderm)] %&gt;%
+      .[,diff:=(diff_Endoderm+diff_Ectoderm)/<span class="hljs-number">2</span>] %&gt;%
+      .[,c(<span class="hljs-string">&quot;id&quot;</span>,<span class="hljs-string">&quot;anno&quot;</span>,<span class="hljs-string">&quot;lineage1&quot;</span>,<span class="hljs-string">&quot;diff&quot;</span>,<span class="hljs-string">&quot;sig&quot;</span>)] %&gt;% setnames(<span class="hljs-string">&quot;lineage1&quot;</span>,<span class="hljs-string">&quot;lineage&quot;</span>)
+
+    <span class="hljs-comment"># Ectoderm-specific</span>
+    diff.acc.ect &lt;- lapply(list(<span class="hljs-string">&quot;H3K27ac_distal_E7.5_Ect_intersect12&quot;</span>), <span class="hljs-keyword">function</span>(x)
+      rbind(
+        fread(sprintf(<span class="hljs-string">&quot;%s/E7.5Ectoderm_vs_E7.5Endoderm_%s.txt.gz&quot;</span>,io$diff.acc,x)) %&gt;% .[,lineage2:=<span class="hljs-string">&quot;Endoderm&quot;</span>],
+        fread(sprintf(<span class="hljs-string">&quot;%s/E7.5Ectoderm_vs_E7.5Mesoderm_%s.txt.gz&quot;</span>,io$diff.acc,x)) %&gt;% .[,lineage2:=<span class="hljs-string">&quot;Mesoderm&quot;</span>]
+      )) %&gt;% rbindlist() %&gt;% .[,lineage1:=<span class="hljs-string">&quot;Ectoderm&quot;</span>] %&gt;% 
+      .[,sig:=padj_fdr&lt;opts$min.fdr &amp; abs(diff)&gt;opts$min.acc.diff] %&gt;%
+      data.table::dcast(id+anno+lineage1~lineage2, value.var=c(<span class="hljs-string">&quot;diff&quot;</span>,<span class="hljs-string">&quot;padj_fdr&quot;</span>,<span class="hljs-string">&quot;sig&quot;</span>)) %&gt;%
+      .[,sig:=sig_Endoderm==<span class="hljs-literal">T</span> &amp; sig_Mesoderm==<span class="hljs-literal">T</span> &amp; sign(diff_Endoderm)==sign(diff_Mesoderm)] %&gt;%
+      .[,diff:=(diff_Endoderm+diff_Mesoderm)/<span class="hljs-number">2</span>] %&gt;%
+      .[,c(<span class="hljs-string">&quot;id&quot;</span>,<span class="hljs-string">&quot;anno&quot;</span>,<span class="hljs-string">&quot;lineage1&quot;</span>,<span class="hljs-string">&quot;diff&quot;</span>,<span class="hljs-string">&quot;sig&quot;</span>)] %&gt;% setnames(<span class="hljs-string">&quot;lineage1&quot;</span>,<span class="hljs-string">&quot;lineage&quot;</span>)
+
+    <span class="hljs-comment"># Endoderm-specific</span>
+    diff.acc.end &lt;- lapply(list(<span class="hljs-string">&quot;H3K27ac_distal_E7.5_End_intersect12&quot;</span>), <span class="hljs-keyword">function</span>(x)
+      rbind(
+        fread(sprintf(<span class="hljs-string">&quot;%s/E7.5Endoderm_vs_E7.5Mesoderm_%s.txt.gz&quot;</span>,io$diff.acc,x)) %&gt;% .[,lineage2:=<span class="hljs-string">&quot;Mesoderm&quot;</span>],
+        fread(sprintf(<span class="hljs-string">&quot;%s/E7.5Endoderm_vs_E7.5Ectoderm_%s.txt.gz&quot;</span>,io$diff.acc,x)) %&gt;% .[,lineage2:=<span class="hljs-string">&quot;Ectoderm&quot;</span>]
+      )) %&gt;% rbindlist() %&gt;% .[,lineage1:=<span class="hljs-string">&quot;Endoderm&quot;</span>] %&gt;% 
+      .[,sig:=padj_fdr&lt;opts$min.fdr &amp; abs(diff)&gt;opts$min.acc.diff] %&gt;%
+      data.table::dcast(id+anno+lineage1~lineage2, value.var=c(<span class="hljs-string">&quot;diff&quot;</span>,<span class="hljs-string">&quot;padj_fdr&quot;</span>,<span class="hljs-string">&quot;sig&quot;</span>)) %&gt;%
+      .[,sig:=sig_Mesoderm==<span class="hljs-literal">T</span> &amp; sig_Ectoderm==<span class="hljs-literal">T</span> &amp; sign(diff_Mesoderm)==sign(diff_Ectoderm)] %&gt;%
+      .[,diff:=(diff_Mesoderm+diff_Ectoderm)/<span class="hljs-number">2</span>] %&gt;%
+      .[,c(<span class="hljs-string">&quot;id&quot;</span>,<span class="hljs-string">&quot;anno&quot;</span>,<span class="hljs-string">&quot;lineage1&quot;</span>,<span class="hljs-string">&quot;diff&quot;</span>,<span class="hljs-string">&quot;sig&quot;</span>)] %&gt;% setnames(<span class="hljs-string">&quot;lineage1&quot;</span>,<span class="hljs-string">&quot;lineage&quot;</span>)
+  }
+
+  diff.acc &lt;- do.call(<span class="hljs-string">&quot;rbind&quot;</span>, list(diff.acc.mes,diff.acc.end,diff.acc.ect))
+  rm(diff.acc.mes,diff.acc.ect,diff.acc.end)
+}
+</code></pre>
+<h3 id="19-&#x52A0;&#x8F7D;&#x6CE8;&#x91CA;">1.9 &#x52A0;&#x8F7D;&#x6CE8;&#x91CA;</h3>
+<pre><code class="lang-R"><span class="hljs-comment"># Methylation</span>
+anno_df.met &lt;- anno_df %&gt;% split(.$anno) %&gt;%
+  map2(.,names(.), <span class="hljs-keyword">function</span>(x,y) x[id %<span class="hljs-keyword">in</span>% diff.met[sig==<span class="hljs-literal">T</span> &amp; anno==y,id]] ) %&gt;%
+  rbindlist %&gt;% setkey(chr,start,end) %&gt;%
+  .[,anno:=stringr::str_replace_all(anno,opts$annos)]
+
+<span class="hljs-comment"># Accessibility</span>
+anno_df.acc &lt;- anno_df %&gt;% split(.$anno) %&gt;%
+  map2(.,names(.), <span class="hljs-keyword">function</span>(x,y) x[id %<span class="hljs-keyword">in</span>% diff.acc[sig==<span class="hljs-literal">T</span> &amp; anno==y,id]] ) %&gt;%
+  rbindlist %&gt;% setkey(chr,start,end) %&gt;%
+  .[,anno:=stringr::str_replace_all(anno,opts$annos)]
+</code></pre>
+<h3 id="110-&#x52A0;&#x8F7D;met&#x6570;&#x636E;&#xFF08;&#x8F83;&#x5927;&#xFF09;">1.10 &#x52A0;&#x8F7D;Met&#x6570;&#x636E;&#xFF08;&#x8F83;&#x5927;&#xFF09;</h3>
+<pre><code class="lang-R"><span class="hljs-comment"># Load methylation data</span>
+met_list &lt;- list()
+<span class="hljs-keyword">for</span> (cell <span class="hljs-keyword">in</span> opts$met.cells) {
+  tmp &lt;- fread(sprintf(<span class="hljs-string">&quot;%s/%s.tsv.gz&quot;</span>,io$met.dir,cell), showProgress=<span class="hljs-literal">F</span>) %&gt;%
+    .[,c(<span class="hljs-string">&quot;chr&quot;</span>,<span class="hljs-string">&quot;pos&quot;</span>,<span class="hljs-string">&quot;rate&quot;</span>)] %&gt;% .[,id_met:=cell] %&gt;% 
+    .[,c(<span class="hljs-string">&quot;start&quot;</span>,<span class="hljs-string">&quot;end&quot;</span>):=list(pos,pos)] %&gt;% setnames(<span class="hljs-string">&quot;pos&quot;</span>,<span class="hljs-string">&quot;bp&quot;</span>) %&gt;% setkey(<span class="hljs-string">&quot;chr&quot;</span>,<span class="hljs-string">&quot;start&quot;</span>,<span class="hljs-string">&quot;end&quot;</span>) %&gt;%
+
+    foverlaps(.,anno_df.met, nomatch=<span class="hljs-number">0</span>) %&gt;% .[, c(<span class="hljs-string">&quot;chr&quot;</span>,<span class="hljs-string">&quot;i.start&quot;</span>,<span class="hljs-string">&quot;i.end&quot;</span>) := <span class="hljs-literal">NULL</span>] %&gt;%
+    .[,id:=as.character(id)] %&gt;%
+    .[,dist:=ifelse(strand %<span class="hljs-keyword">in</span>% c(<span class="hljs-string">&quot;+&quot;</span>,<span class="hljs-string">&quot;*&quot;</span>),bp-center,center-bp)] %&gt;% 
+    .[, dist:=opts$met.tile*round(dist/opts$met.tile)] %&gt;%
+    .[,list(rate=mean(rate), n=.N),by=.(id_met,id,dist,anno)]
+  met_list[[cell]] &lt;- tmp
+}
+met &lt;- rbindlist(met_list) %&gt;%
+  .[,c(<span class="hljs-string">&quot;id_met&quot;</span>,<span class="hljs-string">&quot;id&quot;</span>,<span class="hljs-string">&quot;context&quot;</span>):=list(as.factor(id_met),as.factor(id),as.factor(<span class="hljs-string">&quot;CG&quot;</span>))]
+
+rm(met_list)
+</code></pre>
+<h3 id="111-&#x52A0;&#x8F7D;acc&#x6570;&#x636E;&#xFF08;&#x8F83;&#x5927;&#xFF09;">1.11 &#x52A0;&#x8F7D;Acc&#x6570;&#x636E;&#xFF08;&#x8F83;&#x5927;&#xFF09;</h3>
+<pre><code># Load accessibility data
+acc_list &lt;- list()
+for (cell in opts$acc.cells) {
+  tmp &lt;- fread(sprintf(&quot;%s/%s.tsv.gz&quot;,io$acc.dir,cell), showProgress=F) %&gt;%
+    .[,c(&quot;chr&quot;,&quot;pos&quot;,&quot;rate&quot;)] %&gt;% .[,id_acc:=cell] %&gt;% 
+    .[,c(&quot;start&quot;,&quot;end&quot;):=list(pos,pos)] %&gt;% setnames(&quot;pos&quot;,&quot;bp&quot;) %&gt;% setkey(&quot;chr&quot;,&quot;start&quot;,&quot;end&quot;) %&gt;%
+
+    foverlaps(.,anno_df.acc, nomatch=0) %&gt;% .[, c(&quot;chr&quot;,&quot;i.start&quot;,&quot;i.end&quot;) := NULL] %&gt;%
+    .[,id:=as.character(id)] %&gt;%
+    .[,dist:=ifelse(strand %in% c(&quot;+&quot;,&quot;*&quot;),bp-center,center-bp)] %&gt;% 
+    .[, dist:=opts$acc.tile*round(dist/opts$acc.tile)] %&gt;%
+    .[,list(rate=mean(rate), n=.N),by=.(id_acc,id,dist,anno)]
+  acc_list[[cell]] &lt;- tmp
+}
+acc &lt;- rbindlist(acc_list) %&gt;%
+  .[,c(&quot;id_acc&quot;,&quot;id&quot;,&quot;context&quot;):=list(as.factor(id_acc),as.factor(id),as.factor(&quot;GC&quot;))]
+
+rm(acc_list)
+</code></pre><h3 id="112-&#x5408;&#x5E76;&#x6570;&#x636E;&#x5E76;&#x4FDD;&#x5B58;">1.12 &#x5408;&#x5E76;&#x6570;&#x636E;&#x5E76;&#x4FDD;&#x5B58;</h3>
+<pre><code># Merge data with sample metadata
+met &lt;- met %&gt;% merge(sample_metadata, by=&quot;id_met&quot;) %&gt;% droplevels()
+acc &lt;- acc %&gt;% merge(sample_metadata, by=&quot;id_acc&quot;) %&gt;% droplevels()
+
+data &lt;- rbind(
+  met[,c(&quot;sample&quot;,&quot;stage&quot;,&quot;stage_lineage&quot;,&quot;id&quot;,&quot;anno&quot;,&quot;dist&quot;,&quot;rate&quot;,&quot;context&quot;)],
+  acc[,c(&quot;sample&quot;,&quot;stage&quot;,&quot;stage_lineage&quot;,&quot;id&quot;,&quot;anno&quot;,&quot;dist&quot;,&quot;rate&quot;,&quot;context&quot;)]
+)
+data[,rate:=rate*100]
+data[,anno:=stringr::str_replace_all(anno,opts$annos)]
+saveRDS(data, &quot;/Users/ricard/data/gastrulation/metacc/pseudobulked_profiles/lineage_enhancers/data.rds&quot;)
+</code></pre><h2 id="2&#x3001;met&#x4E0E;acc&#x589E;&#x5F3A;&#x5B50;&#x5206;&#x6790;">2&#x3001;Met&#x4E0E;Acc&#x589E;&#x5F3A;&#x5B50;&#x5206;&#x6790;</h2>
+<h3 id="21-&#x52A0;&#x8F7D;&#x5168;&#x5C40;met&#x4E0E;acc&#x6BD4;&#x4F8B;">2.1 &#x52A0;&#x8F7D;&#x5168;&#x5C40;Met&#x4E0E;Acc&#x6BD4;&#x4F8B;</h3>
+<pre><code class="lang-R">met.stats &lt;- fread(io$met.stats) %&gt;% .[,c(<span class="hljs-string">&quot;id_met&quot;</span>,<span class="hljs-string">&quot;mean&quot;</span>)] %&gt;%
+  merge(sample_metadata[,.(sample,id_met)], by=<span class="hljs-string">&quot;id_met&quot;</span>) %&gt;% .[,context:=<span class="hljs-string">&quot;CG&quot;</span>]
+
+acc.stats &lt;- fread(io$acc.stats) %&gt;% .[,c(<span class="hljs-string">&quot;id_acc&quot;</span>,<span class="hljs-string">&quot;mean&quot;</span>)] %&gt;%
+  merge(sample_metadata[,.(sample,id_acc)], by=<span class="hljs-string">&quot;id_acc&quot;</span>) %&gt;% .[,context:=<span class="hljs-string">&quot;GC&quot;</span>]
+
+stats &lt;- rbind(
+  met.stats[,c(<span class="hljs-string">&quot;sample&quot;</span>,<span class="hljs-string">&quot;mean&quot;</span>,<span class="hljs-string">&quot;context&quot;</span>)],
+  acc.stats[,c(<span class="hljs-string">&quot;sample&quot;</span>,<span class="hljs-string">&quot;mean&quot;</span>,<span class="hljs-string">&quot;context&quot;</span>)]
+) %&gt;% merge(sample_metadata[,c(<span class="hljs-string">&quot;sample&quot;</span>,<span class="hljs-string">&quot;stage&quot;</span>,<span class="hljs-string">&quot;stage_lineage&quot;</span>)],by=<span class="hljs-string">&quot;sample&quot;</span>) %&gt;%
+  .[,.(mean=mean(mean)),by=c(<span class="hljs-string">&quot;stage_lineage&quot;</span>,<span class="hljs-string">&quot;context&quot;</span>)]
+
+data[,stage_lineage:=stringr::str_replace_all(stage_lineage,<span class="hljs-string">&quot;_&quot;</span>,<span class="hljs-string">&quot; &quot;</span>)]
+stats[,stage_lineage:=stringr::str_replace_all(stage_lineage,<span class="hljs-string">&quot;_&quot;</span>,<span class="hljs-string">&quot; &quot;</span>)]
+</code></pre>
+<h3 id="22-&#x7ED8;&#x5236;met&#x4E0E;acc-&#x589E;&#x5F3A;&#x5B50;&#x56FE;&#x8C31;">2.2 &#x7ED8;&#x5236;Met&#x4E0E;Acc &#x589E;&#x5F3A;&#x5B50;&#x56FE;&#x8C31;</h3>
+<pre><code class="lang-R">p_list &lt;- list()
+
+<span class="hljs-keyword">for</span> (i <span class="hljs-keyword">in</span> unique(data$stage_lineage)) {
+  print(i)
+
+  tmp &lt;- data[stage_lineage==i]
+
+  p_list[[i]] &lt;- ggplot(tmp, aes(x=dist, y=rate, group=context, fill=context, color=context)) +
+    facet_wrap(~anno, nrow=<span class="hljs-number">1</span>, scales=<span class="hljs-string">&quot;fixed&quot;</span>) +
+    stat_summary(geom=<span class="hljs-string">&quot;ribbon&quot;</span>, fun.data=<span class="hljs-string">&quot;mean_se&quot;</span>, alpha=<span class="hljs-number">1</span>) +
+    stat_summary(geom=<span class="hljs-string">&quot;line&quot;</span>, fun.data=<span class="hljs-string">&quot;mean_se&quot;</span>) +
+    geom_hline(yintercept=stats[context==<span class="hljs-string">&quot;CG&quot;</span> &amp; stage_lineage==i,median(mean,na.rm=<span class="hljs-literal">T</span>)], color=<span class="hljs-string">&quot;#F37A71&quot;</span>, linetype=<span class="hljs-string">&quot;dashed&quot;</span>, alpha=<span class="hljs-number">0.75</span>, size=<span class="hljs-number">0.75</span>) +
+    geom_hline(yintercept=stats[context==<span class="hljs-string">&quot;GC&quot;</span> &amp; stage_lineage==i,median(mean,na.rm=<span class="hljs-literal">T</span>)], color=<span class="hljs-string">&quot;#00BFC4&quot;</span>, linetype=<span class="hljs-string">&quot;dashed&quot;</span>, alpha=<span class="hljs-number">0.75</span>, size=<span class="hljs-number">0.75</span>) +
+    labs(x=<span class="hljs-string">&quot;Distance from center (bp)&quot;</span>, y=<span class="hljs-string">&quot;Met/Acc levels (%)&quot;</span>) +
+    coord_cartesian(ylim=c(<span class="hljs-number">0</span>,<span class="hljs-number">100</span>)) +
+    <span class="hljs-comment"># scale_x_continuous(breaks=c(-1,0,1)) +</span>
+    xlim(-opts$window_size, opts$window_size) +
+    guides(fill=<span class="hljs-literal">FALSE</span>, color=<span class="hljs-literal">FALSE</span>, linetype=<span class="hljs-literal">FALSE</span>) +
+    theme_classic() +
+    theme(
+      axis.text.x = element_text(size=rel(<span class="hljs-number">0.8</span>), colour=<span class="hljs-string">&quot;black&quot;</span>),
+      axis.text.y = element_text(size=rel(<span class="hljs-number">1.2</span>), colour=<span class="hljs-string">&quot;black&quot;</span>)
+    )
+  <span class="hljs-comment"># print(p_list[[i]])</span>
+
+  <span class="hljs-comment">#pdf(file=sprintf(&quot;%s/%s.pdf&quot;,io$pdfdir,i), width=8.5, height=5)</span>
+  print(p_list[[i]])
+}
+</code></pre>
+<p>&#x6700;&#x7EC8;&#x5F97;&#x5230;&#x7ED3;&#x679C;&#xFF0C;&#x8FD9;&#x91CC;&#x53EA;&#x5C55;&#x793A;&#x5176;&#x4E2D;&#x4E24;&#x5E45;&#x56FE;</p>
+<p><img src="https://raw.githubusercontent.com/Starlitnightly/bioinformatic_galaxy/master/img/image-20211008234859116.png" alt="image-20211008234859116" style="zoom:50%;"></p>
+<p><img src="https://raw.githubusercontent.com/Starlitnightly/bioinformatic_galaxy/master/img/image-20211008234956453.png" alt="image-20211008234956453" style="zoom:50%;"></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="gastrulation_3.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 1-3. 下游分析-Figure3b">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"1-4. 增强子分析-Figure3c","level":"1.3.4","depth":2,"previous":{"title":"1-3. 下游分析-Figure3b","level":"1.3.3","depth":2,"path":"GASTRULATION/gastrulation_3.md","ref":"GASTRULATION/gastrulation_3.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["expandable-chapters"],"pluginsConfig":{"expandable-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"GASTRULATION/gastrulation_4.md","mtime":"2021-10-08T15:50:23.509Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-10-08T15:50:43.701Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

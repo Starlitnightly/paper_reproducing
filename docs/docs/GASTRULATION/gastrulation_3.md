@@ -222,7 +222,7 @@ p <- p + scale_color_manual(values=opts$colors)
 print(p)
 ```
 
-![下载 (3)](https://raw.githubusercontent.com/Starlitnightly/bioinformatic_galaxy/master/img/%E4%B8%8B%E8%BD%BD%20(3).png)
+<img src="https://raw.githubusercontent.com/Starlitnightly/bioinformatic_galaxy/master/img/%E4%B8%8B%E8%BD%BD%20(3).png" alt="下载 (3)" style="zoom:50%;" />
 
 至此，我们可以确定因子1与Mesoderm（中胚层）及Ectoderm（外胚层）相关，因子2与Endoderm（内胚层）相关
 
